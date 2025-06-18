@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "saba"
+version = "0.1.0"
+
+[dependencies]
+noli = {git = "https://github.com/hikalium/wasabi", branch = "for_saba"}
+
+[profile.release]
+panic = "abort"
